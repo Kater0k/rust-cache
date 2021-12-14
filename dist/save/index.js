@@ -59433,6 +59433,7 @@ const paths = {
     cargoHome,
     index: external_path_default().join(cargoHome, "registry/index"),
     cache: external_path_default().join(cargoHome, "registry/cache"),
+    src: external_path_default().join(cargoHome, "registry/src"),
     git: external_path_default().join(cargoHome, "git"),
     target: targetDir,
 };
@@ -59470,6 +59471,7 @@ async function getCacheConfig() {
             paths.git,
             paths.cache,
             paths.index,
+            paths.src,
             paths.target,
         ],
         key: `${key}-${lockHash}`,

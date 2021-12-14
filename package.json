@@ -12,15 +12,12 @@
   "license": "LGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Swatinem/rust-cache.git"
+    "url": "git+https://github.com/Kater0k/rust-cache.git"
   },
   "bugs": {
-    "url": "https://github.com/Swatinem/rust-cache/issues"
+    "url": "https://github.com/Kater0k/rust-cache/issues"
   },
-  "funding": {
-    "url": "https://github.com/sponsors/Swatinem"
-  },
-  "homepage": "https://github.com/Swatinem/rust-cache#readme",
+  "homepage": "https://github.com/Kater0k/rust-cache#readme",
   "dependencies": {
     "@actions/cache": "^1.0.7",
     "@actions/core": "^1.5.0",

@@ -31,6 +31,7 @@ export const paths = {
   cargoHome,
   index: path.join(cargoHome, "registry/index"),
   cache: path.join(cargoHome, "registry/cache"),
+  src: path.join(cargoHome, "registry/src"),
   git: path.join(cargoHome, "git"),
   target: targetDir,
 };
@@ -81,6 +82,7 @@ export async function getCacheConfig(): Promise<CacheConfig> {
       paths.git,
       paths.cache,
       paths.index,
+      paths.src,
       paths.target,
     ],
     key: `${key}-${lockHash}`,
